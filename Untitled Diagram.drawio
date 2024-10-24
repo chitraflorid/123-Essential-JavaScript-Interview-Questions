@@ -4,9 +4,6 @@
       <root>
         <mxCell id="0" style=";html=1;" />
         <mxCell id="1" style=";html=1;" parent="0" />
-        <mxCell id="Ar0YhepIN88lg4Nlt3Pr-1" value="User" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="170" y="170" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="Ar0YhepIN88lg4Nlt3Pr-6" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="230" y="230" as="sourcePoint" />
@@ -66,6 +63,9 @@
         </mxCell>
         <mxCell id="Ar0YhepIN88lg4Nlt3Pr-31" value="Save Updated Formula and Values to BE" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
           <mxGeometry x="530" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ar0YhepIN88lg4Nlt3Pr-40" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="215" y="150" width="30" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
