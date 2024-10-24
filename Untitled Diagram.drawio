@@ -4,48 +4,32 @@
       <root>
         <mxCell id="0" style=";html=1;" />
         <mxCell id="1" style=";html=1;" parent="0" />
-        <mxCell id="qqEbw2DDJvwvU69LJc_Y-1" value="WKS Grid" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="430" y="660" width="80" height="80" as="geometry" />
+        <mxCell id="Ar0YhepIN88lg4Nlt3Pr-1" value="User" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="170" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="qqEbw2DDJvwvU69LJc_Y-3" value="UndoRedoService" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1040" y="670" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="qqEbw2DDJvwvU69LJc_Y-4" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="650" y="699.5" as="sourcePoint" />
-            <mxPoint x="710" y="699.5" as="targetPoint" />
+        <mxCell id="Ar0YhepIN88lg4Nlt3Pr-6" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="230" as="sourcePoint" />
+            <mxPoint x="230" y="310" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qqEbw2DDJvwvU69LJc_Y-5" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="qqEbw2DDJvwvU69LJc_Y-1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="520" y="730" as="sourcePoint" />
-            <mxPoint x="570" y="700" as="targetPoint" />
+        <mxCell id="Ar0YhepIN88lg4Nlt3Pr-7" value="Enables the Cell Edit" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="Ar0YhepIN88lg4Nlt3Pr-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ar0YhepIN88lg4Nlt3Pr-8" value="Cell Editor" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ar0YhepIN88lg4Nlt3Pr-11" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="370" as="sourcePoint" />
+            <mxPoint x="220" y="450" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qqEbw2DDJvwvU69LJc_Y-7" value="Custom&amp;nbsp; / Default Cell Editor&amp;nbsp;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="570" y="660" width="80" height="80" as="geometry" />
+        <mxCell id="Ar0YhepIN88lg4Nlt3Pr-12" value="Completes the Edit" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="Ar0YhepIN88lg4Nlt3Pr-11">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="qqEbw2DDJvwvU69LJc_Y-8" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="qqEbw2DDJvwvU69LJc_Y-2">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="820" y="730" as="sourcePoint" />
-            <mxPoint x="870" y="680" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="qqEbw2DDJvwvU69LJc_Y-9" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="qqEbw2DDJvwvU69LJc_Y-2">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="820" y="730" as="sourcePoint" />
-            <mxPoint x="870" y="680" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="qqEbw2DDJvwvU69LJc_Y-2" value="Cell Event Management Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="710" y="670" width="230" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="qqEbw2DDJvwvU69LJc_Y-10" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1.009;exitY=0.4;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="qqEbw2DDJvwvU69LJc_Y-2">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1010" y="720" as="sourcePoint" />
-            <mxPoint x="1040" y="694" as="targetPoint" />
-            <Array as="points" />
-          </mxGeometry>
+        <mxCell id="Ar0YhepIN88lg4Nlt3Pr-14" value="onCellValueChangedEvent" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="450" width="200" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
