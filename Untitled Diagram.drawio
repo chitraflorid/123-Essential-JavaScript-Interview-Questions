@@ -4,69 +4,6 @@
       <root>
         <mxCell id="0" style=";html=1;" />
         <mxCell id="1" style=";html=1;" parent="0" />
-        <mxCell id="Ar0YhepIN88lg4Nlt3Pr-6" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="230" y="230" as="sourcePoint" />
-            <mxPoint x="230" y="310" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Ar0YhepIN88lg4Nlt3Pr-7" value="Enables the Cell Edit" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="Ar0YhepIN88lg4Nlt3Pr-6">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Ar0YhepIN88lg4Nlt3Pr-8" value="Cell Editor" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="170" y="310" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Ar0YhepIN88lg4Nlt3Pr-11" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="220" y="370" as="sourcePoint" />
-            <mxPoint x="220" y="450" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Ar0YhepIN88lg4Nlt3Pr-12" value="Completes the Edit" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="Ar0YhepIN88lg4Nlt3Pr-11">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Ar0YhepIN88lg4Nlt3Pr-14" value="Dispatch onCellValueChangedEvent" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="130" y="450" width="200" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Ar0YhepIN88lg4Nlt3Pr-15" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="210" y="510" as="sourcePoint" />
-            <mxPoint x="210" y="600" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Ar0YhepIN88lg4Nlt3Pr-16" value="Invokes UndoRedo Service" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="Ar0YhepIN88lg4Nlt3Pr-15">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Ar0YhepIN88lg4Nlt3Pr-24" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="330" y="479.5" as="sourcePoint" />
-            <mxPoint x="530" y="480" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Ar0YhepIN88lg4Nlt3Pr-25" value="Invokes Clculation Service" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="Ar0YhepIN88lg4Nlt3Pr-24">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Ar0YhepIN88lg4Nlt3Pr-27" value="Process Formula&lt;div&gt;Update the Cell Value&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="530" y="450" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Ar0YhepIN88lg4Nlt3Pr-28" value="Push the currentCellEdit event to undoStack&lt;br&gt;Clear the redoStack" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="130" y="600" width="160" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="Ar0YhepIN88lg4Nlt3Pr-29" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="580" y="510" as="sourcePoint" />
-            <mxPoint x="580" y="640" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Ar0YhepIN88lg4Nlt3Pr-30" value="Invokes API service" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="Ar0YhepIN88lg4Nlt3Pr-29">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Ar0YhepIN88lg4Nlt3Pr-31" value="Save Updated Formula and Values to BE" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="530" y="640" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Ar0YhepIN88lg4Nlt3Pr-40" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="215" y="150" width="30" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="Ar0YhepIN88lg4Nlt3Pr-50" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="140" y="810" width="30" height="60" as="geometry" />
         </mxCell>
