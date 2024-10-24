@@ -40,9 +40,6 @@
         <mxCell id="Ar0YhepIN88lg4Nlt3Pr-16" value="Invokes UndoRedo Service" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="Ar0YhepIN88lg4Nlt3Pr-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Ar0YhepIN88lg4Nlt3Pr-17" value="Push the currentCellEdit event to undoStack&lt;br&gt;Clear the redoStack" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="150" y="600" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="Ar0YhepIN88lg4Nlt3Pr-24" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="330" y="479.5" as="sourcePoint" />
@@ -51,6 +48,15 @@
         </mxCell>
         <mxCell id="Ar0YhepIN88lg4Nlt3Pr-25" value="Invokes Clculation Service" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="Ar0YhepIN88lg4Nlt3Pr-24">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ar0YhepIN88lg4Nlt3Pr-26" value="" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ar0YhepIN88lg4Nlt3Pr-27" value="" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ar0YhepIN88lg4Nlt3Pr-28" value="Push the currentCellEdit event to undoStack&lt;br&gt;Clear the redoStack" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="610" width="160" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
