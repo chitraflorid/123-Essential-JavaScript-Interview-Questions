@@ -28,7 +28,7 @@
         <mxCell id="Ar0YhepIN88lg4Nlt3Pr-12" value="Completes the Edit" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="Ar0YhepIN88lg4Nlt3Pr-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Ar0YhepIN88lg4Nlt3Pr-14" value="onCellValueChangedEvent" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Ar0YhepIN88lg4Nlt3Pr-14" value="Dispatch onCellValueChangedEvent" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="130" y="450" width="200" height="60" as="geometry" />
         </mxCell>
       </root>
