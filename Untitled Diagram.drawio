@@ -67,6 +67,18 @@
         <mxCell id="Ar0YhepIN88lg4Nlt3Pr-40" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="215" y="150" width="30" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="Ar0YhepIN88lg4Nlt3Pr-50" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="810" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ar0YhepIN88lg4Nlt3Pr-56" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="154.5" y="900" as="sourcePoint" />
+            <mxPoint x="154.5" y="980" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ar0YhepIN88lg4Nlt3Pr-57" value="Clicks Undo" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="Ar0YhepIN88lg4Nlt3Pr-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
