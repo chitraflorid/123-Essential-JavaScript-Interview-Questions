@@ -79,6 +79,23 @@
         <mxCell id="Ar0YhepIN88lg4Nlt3Pr-57" value="Clicks Undo" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="Ar0YhepIN88lg4Nlt3Pr-56">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="Ar0YhepIN88lg4Nlt3Pr-60" value="UndoRedoComponent" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="980" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ar0YhepIN88lg4Nlt3Pr-61" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="154.5" y="1050" as="sourcePoint" />
+            <mxPoint x="154.5" y="1120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ar0YhepIN88lg4Nlt3Pr-62" value="Invokes UndoRedoService" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="Ar0YhepIN88lg4Nlt3Pr-61">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ar0YhepIN88lg4Nlt3Pr-63" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;Pop undoStack&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Prepare parameters to cellValueChangedEvent from the Popped event&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;div&gt;Transform Undo action to cellValueChanged Action&lt;br&gt;&lt;br&gt;trigger cellValueChanged Event&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="47.5" y="1120" width="225" height="190" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
